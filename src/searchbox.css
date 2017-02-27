@@ -1,0 +1,278 @@
+﻿#controlbox
+{
+    position: absolute;
+    left: 0px;
+    margin: 16px;
+    top: 0px;
+    transition: left 0.5s;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+    transition-property: -webkit-transform,transform,visibility,opacity;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.0,0.0,0.2,1);
+}
+
+#controlcontainer
+{
+    top: 0;
+    position: absolute;
+    z-index: 4;
+    margin:0px !important;
+    bottom:0;
+    height:100%;
+}
+
+
+#omnibox.vasquette-margin-enabled {
+    margin: 8px 0 8px 8px;
+}
+
+
+.searchbox
+{
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    width: 360px;
+    height: 48px;
+    border-bottom: 1px solid transparent;
+    padding: 12px 70px 11px 70px;
+    transition-property: background,box-shadow;
+    transition-duration: 0.3s;
+}
+
+
+.searchbox-shadow
+{
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2),0 -1px 0px rgba(0,0,0,0.02);
+
+}
+
+.searchbox-menu-container {
+    position: absolute;
+    z-index: 1003;
+    left: 0;
+    top: 0;
+}
+
+.searchbox-menubutton::before {
+    content: '';
+    display: block;
+    background-image: url('image/ic_dehaze_black_24dp_2x.png');
+    background-size: 100%;
+    background-position: 0 0;
+    height: 24px;
+    width: 24px;
+    opacity: .62;
+}
+.searchbox-menubutton {
+    display: block;
+    cursor: pointer;
+    padding: 12px 16px;
+}
+
+
+#searchboxinput{
+    width:100%;
+}
+
+.searchbox-searchbutton
+{
+
+    display: block;
+    padding: 2px 15px;
+    cursor:pointer;
+    opacity:0.61;
+}
+.searchbox-searchbutton:hover
+{
+    opacity:0.98;
+}
+.searchbox-searchbutton-container
+{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border-left: 1px solid #ddd;
+    height: 28px;
+}
+
+.searchbox-searchbutton-container::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 10px;
+    border-left: 1px solid #ddd;
+    height: 28px;
+}
+
+
+
+.searchbox-searchbutton::before {
+    content: '';
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('image/ic_search_black_24dp_2x.png');
+    background-size: 100%;
+    opacity:.5
+}
+
+
+
+
+button::-moz-focus-inner, input::-moz-focus-inner, textarea::-moz-focus-inner {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+a, button, h1, h2, h3, h4, h5, h6, input, ol, p, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font: inherit;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+    overflow: visible;
+}
+
+
+
+
+.panel {
+	width:300px;
+	float:left;
+	height:550px;
+	background:white;
+	position:relative;
+	display:none;
+
+}
+
+.panel-header {
+
+    display:table;
+}
+
+.panel-header-container
+{
+    display:table-row;
+}
+.panel-header-title
+{
+    display:table-cell;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+    width:95%;
+    line-height: 24px;
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    color: #c3c3c3;
+}
+
+.panel-close-button
+{
+    background: no-repeat url('image/ic_navigate_before_black_24dp_2x.png') ;
+    background-size: 100%;    
+    height:24px;
+    width:24px;
+    margin:5px;
+    cursor:pointer;
+    opacity:0.6;
+    vertical-align:middle;
+}
+
+.panel-close-button:hover
+{
+    opacity:.94;
+   
+}
+
+.panel-list
+{
+   border-top: 1px solid #d9d9d9;
+   color: #777;
+   font-size: 13px;
+   padding-top:10px;
+}
+
+.panel-list-item
+{
+  padding: 10px 20px 20px 20px;
+  
+  cursor:pointer;
+}
+
+.panel-list-item-icon
+{
+    width: 22px;
+    height: 22px;
+    display:inline-block;
+    opacity:.5;
+    
+    margin-right:25px;
+}
+
+
+
+
+.panel-content a,button,li:hover
+{
+    color:#777;
+    cursor:pointer;
+    font-size: 14px;
+    line-height:22px;
+    vertical-align:top;
+    
+}
+.panel-content a {
+    text-decoration: none ;
+}
+.panel-content a:hover,button:hover
+{
+    color:blue;
+
+}
+
+.icon-folder
+{
+    background:url('image/ic_folder_black_24dp_2x.png');
+    background-size: 100%;
+}
+
+
+.icon-cloudy
+{
+    background:url('image/ic_wb_cloudy_black_24dp_2x.png');
+    background-size: 100%;
+}
+
+.icon-potrait
+{
+    background:url('image/ic_portrait_black_24dp_2x.png');
+    background-size: 100%;
+}
+
+.icon-local-dining
+{
+    background:url('image/ic_local_dining_black_24dp_2x.png');
+    background-size: 100%;
+}
+
+.icon-bike
+{
+    background:url('image/ic_directions_bike_black_24dp_2x.png');
+    background-size: 100%;
+}
+.icon-local-carwash
+{
+    background:url('image/ic_local_car_wash_black_24dp_2x.png');
+    background-size: 100%;
+}
