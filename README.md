@@ -3,10 +3,10 @@
 A google map style search box which includes a side panel slider control.
 
 ## Requirements 
-   *jquery:  1.12.1 
-   *jquery-ui: 1.8.24 
-   *leaflet: 1.0.2
-   *google icons: https://google.github.io/material-design-icons/
+   * jquery:  1.12.1 
+   * jquery-ui: 1.8.24 
+   * leaflet: 1.0.2
+   * google icons: https://google.github.io/material-design-icons/
 
 ## Demo
 https://8to5developer.github.io/leaflet-custom-searchbox/
