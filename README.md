@@ -34,6 +34,7 @@ https://8to5developer.github.io/leaflet-custom-searchbox/
         map.addLayer(new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
             {attribution:'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'}
             ));
+	    
         var searchboxControl=createSearchboxControl();
         var control = new searchboxControl({
             sidebarTitleText: 'Header',
