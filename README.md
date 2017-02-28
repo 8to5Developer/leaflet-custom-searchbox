@@ -10,6 +10,13 @@ A google map style search box which includes a side panel slider control.
 ## Demo
 https://8to5developer.github.io/leaflet-custom-searchbox/
 
+## Usage
+
+<p align="center">
+  <img src="https://github.com/8to5Developer/leaflet-custom-searchbox/raw/gh-pages/screenshots/snapshot1.JPG" width="350"/>
+  <img src="https://github.com/8to5Developer/leaflet-custom-searchbox/raw/gh-pages/screenshots/snapshot2.JPG" width="350"/>
+</p>
+
 
 ## Instructions
 ```
