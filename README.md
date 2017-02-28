@@ -12,13 +12,13 @@ https://8to5developer.github.io/leaflet-custom-searchbox/
 
 
 ## Instructions
-
+```
 <script src="../dist/leaflet.customsearchbox.min.js"></script>
 <link href="../dist/searchbox.min.css" rel="stylesheet" />
-
+```
 
 ## Code Example
-
+```
    <script>
      $(document).ready(function () {
         
@@ -55,5 +55,5 @@ https://8to5developer.github.io/leaflet-custom-searchbox/
         alert('button 2 clicked !!!');
     }
     </script>
-	
+```
 	
